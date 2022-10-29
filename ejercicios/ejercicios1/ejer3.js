@@ -44,9 +44,9 @@ const factorial = (num) => {
   for(let i = 1; i <= num; i++){
     total = total * i
   }
-  return console.log(total)
+  return console.log(`El factorial de "${num}"  es ${total}`)
 }
 
-factorial(10)
+factorial(5)
 
 console.log("------------- ejer 3----------")
